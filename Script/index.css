@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    background-color: white;
+    border-radius: 1cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 0px 2px #c2d3ff;
+}
+
+body{
+    background-color: rgb(125, 129, 255);
+}
+
+#div1{
+    background-color: white;
+    padding-bottom: 2px;
+    text-align: center;
+    border-radius: 1cm;
+}
+
+#firstly{
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 2cm 2cm 0cm 0cm;
+    padding: 10px;
+}
+#firstly1{
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0cm 0cm 2cm 2cm;
+    padding: 10px;
+}

@@ -3,10 +3,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Script/index.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
 </head>
 <body>
+    <h1><strong>Exchange The Currency Converter</strong></h1>
+    <div id="div1">
+        <p><strong>Select the currency to see the current rates per USD!</strong></p> <button id="button2">Hide the extra rates!</button>
+        <label for="multiply">Amount in USD: </label>
+        <input type="text" id="multiply">
+        <select name="mySelect" id="menu" onchange="exchange()">
+            
+        </select>
+    </div>
+<br>
+    <div id="firstly"></div>
+    <div id="firstly1"></div>
 
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
     <script src="Script/index.js"></script>
-</body>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    </body>
 </html>
