@@ -37,11 +37,7 @@ function exchange() {
     
 
     var selectedCurrency = $("#menu").val();
-    if (!selectedCurrency) {
-        $("#firstly").text("Please select a currency.");
-
-        return;
-    }
+    
 
     $.ajax({
         url: "https://openexchangerates.org/api/latest.json?app_id=1c24f6bc0a1a4d8da2da59ca56c752d8",
